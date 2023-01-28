@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item android:id="@+id/mPdf"
+        android:title="PDF"
+        android:icon="@drawable/pdflogo"
+        app:showAsAction="always"
+        />
+
+
+    <item android:title=""
+
+        />
+
+    <item android:id="@+id/mNote"
+        android:title="Notebook"
+        android:icon="@drawable/notebook"
+        app:showAsAction="always"/>
+
+
+</menu>

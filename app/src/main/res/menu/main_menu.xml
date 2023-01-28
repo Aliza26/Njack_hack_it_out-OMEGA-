@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2015-2022 Emanuel Moecklin
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/load"
+        android:alphabeticShortcut="l"
+        android:icon="?attr/rte_icMenuLoad"
+        android:orderInCategory="1"
+        android:title="@string/menu_load"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/save"
+        android:alphabeticShortcut="s"
+        android:icon="?attr/rte_icMenuSave"
+        android:orderInCategory="2"
+        android:title="@string/menu_save"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/theme"
+        android:alphabeticShortcut="t"
+        android:orderInCategory="3"
+        android:title="@string/menu_dark_theme"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/split_toolbar"
+        android:alphabeticShortcut="c"
+        android:orderInCategory="4"
+        android:title="@string/menu_split_toolbar"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/editor_fragment"
+        android:alphabeticShortcut="f"
+        android:orderInCategory="5"
+        android:title="@string/menu_fragment"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/editor_activity"
+        android:alphabeticShortcut="f"
+        android:orderInCategory="6"
+        android:title="@string/menu_activity"
+        app:showAsAction="never"/>
+
+</menu>
